@@ -1,12 +1,12 @@
 cask "gister" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.0"
+  version "0.1.1"
   # NOTE: bootstrap placeholders — fill with the real hashes of the v0.1.0
   # release DMGs (see the tap README / bootstrap step). Subsequent releases
   # update these automatically via the gister repo's Bump Homebrew cask workflow.
-  sha256 arm:   "0000000000000000000000000000000000000000000000000000000000000000",
-         intel: "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 arm:   "401b7a8d391c67d5070b9c941f76b96d11104bec604060dee4c28a5822068e77",
+         intel: "21586d24b5f64b7e74df1dde0f52d6b6cf699e032f0012652b8a962ed272c93f"
 
   url "https://github.com/gethopp/gister/releases/download/v#{version}/Gister_#{version}_#{arch}.dmg"
   name "Gister"
